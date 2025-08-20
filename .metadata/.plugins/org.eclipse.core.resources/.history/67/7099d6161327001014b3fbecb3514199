@@ -1,0 +1,38 @@
+package Day_2;
+
+public class Variables_Demo {
+
+	public static void main(String[] args) {
+		int a; //declration
+		a=100; // assignmnet
+		
+		int b=100; // dec & assignment
+		System.out.println(b);
+		b=200;
+		System.out.println(b);
+		
+		//approach 1 - if all the variables are not  same data type
+		
+		/*
+		 * int x=10;
+		 * int y=20;
+		 */
+		
+		//approach 2 - if all the variables are same data type
+		/*int x,y;
+		x=100;
+		y=200;
+		*/
+		
+		
+		//approach 3 - if all the variables are same data type
+		int x=101,y=102;
+		
+		System.out.println("the value of x is :"+ x);
+		System.out.println("the value of y is :"+ y);
+		
+		
+
+	}
+
+}

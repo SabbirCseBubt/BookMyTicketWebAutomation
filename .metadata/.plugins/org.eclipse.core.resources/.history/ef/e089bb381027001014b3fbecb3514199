@@ -1,0 +1,16 @@
+package Day_2;
+
+public class Variables_Demo {
+
+	public static void main(String[] args) {
+		int a; //declration
+		a=100; // assignmnet
+		
+		int b=100; // dec & assignment
+		System.out.println(b);
+		
+		
+
+	}
+
+}

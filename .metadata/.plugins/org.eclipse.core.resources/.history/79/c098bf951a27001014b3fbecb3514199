@@ -1,0 +1,58 @@
+package Day_2;
+
+public class DataTypesDemo {
+
+	public static void main(String[] args) {
+	
+		//numeric data types
+		int a =100, b=200;
+		System.out.println("the value of a is :"+ a);
+		System.out.println("the value of b is :"+ b);
+		System.out.println(a+b);
+		
+		System.out.println("the sum is : " + (a+b) );
+		
+		byte by=125;
+		System.out.println(by );
+		
+		short sh=3535;
+		System.out.println(sh );
+		
+		long l=212121212121l;
+		System.out.println( l );
+		
+		
+		//Decimal Numbers  - float,double
+		
+		float item_price=15.5F;
+		System.out.println(item_price);
+		
+		double dbl=1234.1212121212;
+		System.out.println(dbl);
+		
+		char ch='F';
+		System.out.println(ch);
+		
+		String name="Sabbir";
+		System.out.println(name);
+		
+
+		//char ch='ABC'; //invalid
+		//String ch='ABC'; //invalid 
+		//String ch='A'; //invalid 
+		//String ch="A"; //valid
+		 
+		boolean bl=true;
+		System.out.println(bl);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

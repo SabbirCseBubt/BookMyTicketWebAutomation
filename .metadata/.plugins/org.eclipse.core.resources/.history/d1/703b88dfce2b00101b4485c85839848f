@@ -1,0 +1,25 @@
+package Day_20;
+
+import java.util.HashSet;
+
+public class Hashset_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+ HashSet myset=new HashSet(); //Set myset=new HashSet();
+//HashSet<String>myset=new HashSet<String>();
+//adding elements in to hashset
+myset.add(100);
+myset.add(10.5);
+myset.add("welcome");
+myset.add(true);
+myset.add('A');
+myset.add(100);
+myset.add(null);
+myset.add(null);
+System.out.println(myset);
+
+	}
+
+}

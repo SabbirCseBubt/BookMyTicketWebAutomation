@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FrameWork">
+<listeners>
+<listener class-name="com.makemttrip.listeners.CustomListener"></listener>
+</listeners>
+  <test thread-count="5" name="Search Flight Test">
+    <classes>
+      <class name="com.makemytrip.testcases.TestSetup"/>
+      <class name="com.makemytrip.testcases.FlightPageTest"/>
+   
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Log In Test">
+    <classes>
+    
+      <class name="com.makemytrip.testcases.LoginPageTest"/>
+   
+    </classes>
+  </test>
+</suite> <!-- Suite -->

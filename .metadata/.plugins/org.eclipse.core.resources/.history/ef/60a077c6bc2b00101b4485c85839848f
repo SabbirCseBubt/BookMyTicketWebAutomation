@@ -1,0 +1,53 @@
+package Day_20;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Arraylist_Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Declaration
+		
+	ArrayList mylist= new ArrayList(); //1	
+		
+	//2	List mylist1= new ArrayList();
+		
+		//For Homogeneous Data
+	//3	ArrayList<Integer> mylist2= new ArrayList<Integer>();
+		
+		
+		//Adding data into ArrayList
+	
+	mylist.add(100);
+	mylist.add(10.5);
+	mylist.add("Sabbir");
+	
+	
+	//Size of ArrayList
+	System.out.println(mylist.size());
+	
+	//Printing Array_List
+	System.out.println(mylist);
+	 
+	
+	//Remove Element From Array list
+	mylist.remove(0);
+	System.out.println(mylist);
+	
+	//Insert element in the Array_ list
+	mylist.add(0,'A');
+	System.out.println(mylist);
+	
+	//Modify Element
+	mylist.set(0,'B');
+	System.out.print(mylist);
+	
+	//Access specific elements 
+	mylist.get(0);
+	System.out.print(mylist);
+	
+	
+	}
+
+}

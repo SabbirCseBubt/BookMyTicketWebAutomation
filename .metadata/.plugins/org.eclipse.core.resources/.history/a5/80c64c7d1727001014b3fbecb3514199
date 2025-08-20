@@ -1,0 +1,14 @@
+package Day_2;
+
+public class DataTypesDemo {
+
+	public static void main(String[] args) {
+	
+		//numeric data types
+		int a =100, b=200;
+		System.out.println("the value of a is :"+ a);
+		System.out.println("the value of b is :"+ b);
+		System.out.println("the sum is : " + a +" "+ b);
+	}
+
+}
